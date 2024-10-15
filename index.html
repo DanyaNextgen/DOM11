@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <button class="add-btn">Добавить новый товар</button>
+
+    <div class="filters">
+        <label for="text">Товары от:</label>
+        <input type="number" placeholder="$100" id="min-price">
+        <label for="text">Товары до:</label>
+        <input type="number" placeholder="$500" id="max-price">
+        <button class="view-btn">Показать</button>
+    </div>
+
+    <div class="product-grid">
+      <div class="product-card">Йогурт<br><span>$25</span></div>
+      <div class="product-card">Joe Banks<br><span>$1702</span></div>
+      <div class="product-card">Louis Marshall<br><span>$1425</span></div>
+      <div class="product-card">Ronald Cooper<br><span>$1972</span></div>
+      <div class="product-card">Ethan Brewer<br><span>$815</span></div>
+      <div class="product-card">Will Brand<br><span>$844</span></div>
+      <div class="product-card">Steve Reid<br><span>$1302</span></div>
+      <div class="product-card">Alex Lawson<br><span>$1015</span></div>
+      <div class="product-card">Roy Garrett<br><span>$1678</span></div>
+      <div class="product-card">George Garrett<br><span>$1145</span></div>
+      <div class="product-card">Aaron Henderson<br><span>$874</span></div>
+      <div class="product-card">Louis Oliver<br><span>$1581</span></div>
+      <div class="product-card">Nicolas Rivera<br><span>$1878</span></div>
+      <div class="product-card">Jerry Diaz<br><span>$750</span></div>
+      <div class="product-card">Ronald Garrett<br><span>$1509</span></div>
+      <div class="product-card">Charles Fuller<br><span>$304</span></div>
+      <div class="product-card">Chris Wallace<br><span>$551</span></div>
+    </div>
+  </div>
+
+  <div class="modal open">
+    <div class="modal-content">
+      <label>Название товара</label><br>
+      <input type="text" placeholder="Курица"><br>
+      <label>Цена товара</label><br>
+      <input type="number" placeholder="$100">
+      <button class="submit-btn">Добавить</button>
+      <button class="close-btn">Назад</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
